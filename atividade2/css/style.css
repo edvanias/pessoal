@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto';
+    font-weight: bold;
+}
+
+nav{
+    position: fixed;
+    z-index: 0;
+    width: 100%;
+    height: 12%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+nav ul{
+    float: right;
+    margin-right: 109px;
+    font-size: 15px;
+    margin-top: 25px;
+}
+
+nav ul li{
+    float: left;
+    list-style-type: none;
+    margin-right: 30px;
+    color: white;
+}
+
+nav ul li a:hover{
+    color: #F2F2F2;
+    text-decoration: none;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+header{
+	background-color: #000;
+    background-size: 100%;
+    padding-bottom: 300px;
+    padding-top: 255px;
+    padding-left: 270px;
+}
+
+section{
+    z-index: 0;
+}
+
+.logo{
+    width: 70px;
+    margin-left: 120px;
+    margin-top: 2px;
+}
+
+.texto1{
+    font-size: 45px;
+    margin-bottom: 49px;
+    margin-left: 140px;
+    color: white;
+}
+
+.btn{
+    color: white;
+    border-radius: 60px;
+    height: 70px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 0;
+}
+
+.btn1{
+	background-color: #461670;
+    width: 470px;
+    margin-right: 5px;
+}
+
+.btn2{
+	background-color: rgba( 0, 0, 0, 0);
+    border: 2px solid white;
+    width: 420px;
+}
+
+
+/*RESPONSIVO*/
+
+@media (max-width: 400px) {
+
+	.nav{
+		display: block;
+
+	}
+}
